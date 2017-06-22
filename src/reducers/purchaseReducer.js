@@ -18,7 +18,7 @@ const initialState = [
     },
     {
         purchase: "пирожок",
-        isBought: true,
+        isBought: false,
         isEditing: false
     }
 ];
