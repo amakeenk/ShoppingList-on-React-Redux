@@ -1,0 +1,45 @@
+.shoppingList-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.11);
+  background-color: white;
+  transition: all 0.3s;
+  &:hover {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.18);
+    background-color: rgba(249, 240, 218, 0.75);
+  }
+  .item {
+    font-size: 20px;
+  }
+  #check {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+#edit-form {
+  input {
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    border: 2px solid #7BA7AB;
+    border-radius: 5px;
+    outline: none;
+    background: whitesmoke;
+    color: #9E9C9C;
+    font-size: 20px;
+  }
+}
+.button {
+  float: right;
+  padding: 3px;
+  transition: all 0.3s;
+  &:hover {
+    background-color: rgba(123, 167, 171, 0.7);
+    border-radius: 3px;
+    cursor: pointer;
+  }
+}

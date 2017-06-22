@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@ptSans: 'PT Sans', sans-serif;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: @ptSans;
+}
+
+#app-wrapper {
+  max-width: 1200px;
+  margin: 30px auto;
+  box-shadow: 0 0 28px -4px rgba(0, 0, 0, 0.33);
+  background-color: whitesmoke;
+  #main-window-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    #createItem-listItem-wrap {
+      flex-basis: 73%;
+    }
+  }
+}
+
