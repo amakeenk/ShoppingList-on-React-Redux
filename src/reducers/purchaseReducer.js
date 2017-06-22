@@ -17,7 +17,7 @@ const initialState = [
         isEditing: false
     },
     {
-        purchase: "водичка",
+        purchase: "пирожок",
         isBought: false,
         isEditing: false
     }
