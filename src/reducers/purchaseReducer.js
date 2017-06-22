@@ -20,6 +20,11 @@ const initialState = [
         purchase: "пирожок",
         isBought: false,
         isEditing: false
+    },
+    {
+        purchase: "мороженка",
+        isBought: true,
+        isEditing: true
     }
 ];
 
